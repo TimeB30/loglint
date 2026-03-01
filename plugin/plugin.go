@@ -1,9 +1,6 @@
 package plugin
 
 import (
-	//"go/ast"
-	//"strings"
-
 	"github.com/golangci/plugin-module-register/register"
 	"github.com/timeb30/loglint/analyzer"
 	"golang.org/x/tools/go/analysis"

@@ -1,6 +1,6 @@
-module github.com/timeb30/loglint/plugin
+module github.com/timeb30/plugin
 
-go 1.25
+go 1.25.0
 
 require (
 	github.com/golangci/plugin-module-register v0.1.2
