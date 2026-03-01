@@ -1,15 +1,16 @@
 package analyzer
 
 import (
-	"github.com/timeb30/loglint/linter"
-	"github.com/timeb30/loglint/linter/rules"
 	"go/ast"
 	"go/token"
-	"golang.org/x/tools/go/analysis"
 	"strings"
+
+	"github.com/timeb30/loglint/linter"
+	"github.com/timeb30/loglint/linter/rules"
+	"golang.org/x/tools/go/analysis"
 )
 
-func run(pass *analysis.Pass) (any, error) {
+func Run(pass *analysis.Pass) (any, error) {
 	ltr := linter.NewRuleLinker([]linter.Rule{
 		rules.LowerCaseRule{},
 		rules.EnglishRule{},

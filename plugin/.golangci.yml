@@ -1,0 +1,12 @@
+version: "2"
+linters:
+  default: none
+  enable:
+    - myplugin
+  settings:
+    custom:
+      myplugin:
+        type: "module"
+        description: "Checks for first lower case letter, english letters, emoji's and special characters and sensitive data in logs"
+
+

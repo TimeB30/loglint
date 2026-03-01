@@ -8,5 +8,5 @@ var Analyzer = &analysis.Analyzer{
 		"start with the small case, " +
 		"to be only alphabet symbols and  in English, " +
 		"without any sensitive data",
-	Run: run,
+	Run: Run,
 }
