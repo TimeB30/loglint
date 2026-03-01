@@ -2,11 +2,11 @@ package main
 
 import (
 	"github.com/timeb30/loglint/analyzer"
-	"golang.org/x/tools/go/analysis"
+	"golang.org/x/tools/go/analysis/unitchecker"
 )
 
-func New() []*analysis.Analyzer {
-	return []*analysis.Analyzer{
+func main() {
+	unitchecker.Main(
 		analyzer.Analyzer,
-	}
+	)
 }
