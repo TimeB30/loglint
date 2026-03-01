@@ -1,10 +1,11 @@
 version: "2"
+
 linters-settings:
     custom:
       myloglint:
-        path: github.com.timeb30/loglint/lint-plugin
+        type: module
+        module: github.com/timeb30/loglint/lint-plugin
         description: "Checks for first lower case letter, english letters, emoji's and special characters and sensitive data in logs"
-        run: true
 
 
 linters:

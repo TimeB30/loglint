@@ -1,0 +1,4 @@
+github.com/timeb30/loglint v0.0.0-20260301144745-77e2a1a3debf h1:IaI1K7wcmLFMePJcY+jcqc8kRx1M089KJXQzTxxl89k=
+github.com/timeb30/loglint v0.0.0-20260301144745-77e2a1a3debf/go.mod h1:YxgUqHCOPt17dFx8+0S10HTr4Rg+xKigBPau29J2XvU=
+golang.org/x/tools v0.42.0 h1:uNgphsn75Tdz5Ji2q36v/nsFSfR/9BRFvqhGBaJGd5k=
+golang.org/x/tools v0.42.0/go.mod h1:Ma6lCIwGZvHK6XtgbswSoWroEkhugApmsXyrUmBhfr0=
