@@ -44,5 +44,5 @@ func (f *PluginExample) BuildAnalyzers() ([]*analysis.Analyzer, error) {
 }
 
 func (f *PluginExample) GetLoadMode() string {
-	return register.LoadModeSyntax
+	return register.LoadModeTypesInfo
 }

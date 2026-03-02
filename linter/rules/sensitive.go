@@ -18,5 +18,5 @@ func (sr SensitiveRule) Check(s *string) bool {
 }
 
 func (sr SensitiveRule) Name() string {
-	return "sensitive data doesn't allowed"
+	return "Sensitive data doesn't allowed"
 }

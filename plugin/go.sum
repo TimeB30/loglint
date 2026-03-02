@@ -1,6 +1,4 @@
 github.com/golangci/plugin-module-register v0.1.2 h1:e5WM6PO6NIAEcij3B053CohVp3HIYbzSuP53UAYgOpg=
 github.com/golangci/plugin-module-register v0.1.2/go.mod h1:1+QGTsKBvAIvPvoY/os+G5eoqxWn70HYDm2uvUyGuVw=
-github.com/timeb30/loglint v0.0.0-20260301170922-dd8f2a522a38 h1:CUo4q+Sd+z4XooqBuEe0w4nm2Sg7NhlX/mHumHkKQJA=
-github.com/timeb30/loglint v0.0.0-20260301170922-dd8f2a522a38/go.mod h1:YxgUqHCOPt17dFx8+0S10HTr4Rg+xKigBPau29J2XvU=
 golang.org/x/tools v0.42.0 h1:uNgphsn75Tdz5Ji2q36v/nsFSfR/9BRFvqhGBaJGd5k=
 golang.org/x/tools v0.42.0/go.mod h1:Ma6lCIwGZvHK6XtgbswSoWroEkhugApmsXyrUmBhfr0=
