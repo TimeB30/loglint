@@ -11,12 +11,12 @@ To user linter
 ```sh
 cd cmd
 go build -o mylinter
-mylinter yourgofile.go
+./mylinter yourgofile.go
 ```
 
 To use linter as golangci-lint plugin
 ```sh
 cd ./plugin
 golangci-lint custom -v
-./custom-gcl yourgofile.go
+./custom-gcl run yourgofile.go
 ```
