@@ -15,7 +15,6 @@ mylinter yourgofile.go
 ```
 
 To use linter as golangci-lint plugin
-To user linter
 ```sh
 cd ./plugin
 golangci-lint custom -v
